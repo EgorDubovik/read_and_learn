@@ -40,3 +40,9 @@ body{
 .general_w{
 	color: #1d7fd7;
 }
+
+@media only screen and (device-width : 414px){
+	.cont_text{
+		font-size: 25px;
+	}
+}
