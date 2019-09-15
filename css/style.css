@@ -43,11 +43,12 @@ body{
 }
 .cont_text{
 	padding:40px 10px 10px 10px;
+	text-align: justify;
 }
 
 @media only screen and (device-width : 414px){
 	.cont_text{
-		font-size: 20px;
+		font-size: 17px;
 	}
 }
 .bode_index{
