@@ -1,3 +1,4 @@
+<?php include_once 'bookModel.php';?>
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
 <head>
@@ -9,10 +10,10 @@
 <body>
 	<div class="top_on_book">
 		<a href="index.php"><div class="go_back">back</div></a>
-		<div class="title_book">Title same book</div>
+		<div class="title_book"><?=$book['title']?></div>
 	</div>
 	<div class="cont_text">
-		Meet my family. There are five of us – my parents, my elder brother, my baby sister and me. First, meet my mum and dad, Jane and Michael. My mum enjoys reading and my dad enjoys playing chess with my brother Ken. My mum is slim and rather tall. She has long red hair and big brown eyes. She has a very pleasant
+		<?=$book['text']?>
 	</div>
 
 	<script type="text/javascript">

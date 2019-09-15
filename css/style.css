@@ -62,6 +62,7 @@ body{
     padding: 10px;
     border-radius: 5px;
     box-shadow: 1px 1px 1px #ccc;
+    margin-bottom: 10px;
 }
 .book_level{
 	color: #aeadad;
