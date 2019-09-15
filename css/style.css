@@ -4,7 +4,8 @@ html{
 }
 body{
 	margin: 0;
-	padding: 10px;
+	padding: 0px;
+	font-family: sans-serif;
 }
 
 #popup{
@@ -40,9 +41,85 @@ body{
 .general_w{
 	color: #1d7fd7;
 }
+.cont_text{
+	padding:40px 10px 10px 10px;
+}
 
 @media only screen and (device-width : 414px){
 	.cont_text{
-		font-size: 25px;
+		font-size: 20px;
 	}
+}
+.bode_index{
+	padding: 0px;
+	background: #e9e9e9;
+}
+.items_book{
+	padding: 10px;
+}
+.one_item_book{
+	background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #ccc;
+}
+.book_level{
+	color: #aeadad;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+.book_level{
+	float: left;
+}
+.clear{
+	clear: both;
+}
+.cont_levels{
+	    float: left;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.item_l{
+	float: left;
+	width: 8px;
+	height: 8px;
+	margin:0 3px;
+	background: #ccc;
+}
+.item_l.c1.act{
+	background: #91d996;
+}
+.item_l.c2.act{
+	background: #eddf30;
+}
+.item_l.c3.act{
+	background: #ff5f5f;
+}
+.top_on_book{
+	height: 30px;
+    width: 100%;
+    background: #ededed;
+    position: fixed;
+}
+.go_back{
+	font-size: 13px;
+    color: #a9a9a9;
+    background: #fff;
+    float: left;
+    padding: 5px;
+    margin-left: 8px;
+    margin-top: 2px;
+    border-radius: 3px;
+}
+.title_book{
+	float: left;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #7c7979;
+    margin-top: 6px;
 }
