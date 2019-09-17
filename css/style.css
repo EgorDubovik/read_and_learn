@@ -9,7 +9,7 @@ body{
 }
 
 #popup{
-	position: absolute;
+	position: fixed;
 	display: block;
 	background: #fff;
 	z-index: 2;
