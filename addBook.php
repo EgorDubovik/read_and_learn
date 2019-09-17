@@ -3,6 +3,7 @@
 	$db = DB::getConection();
 	if(isset($_POST['title'])){
 		$db->query("INSERT INTO books (title,level,text) VALUES('".$_POST['title']."',".$_POST['level'].",'".$_POST['text']."')");
+		print_r($db->errorInfo());
 	}
 ?>
 <!DOCTYPE html>
