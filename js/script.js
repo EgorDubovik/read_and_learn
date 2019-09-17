@@ -2,13 +2,13 @@ var api_key = "trnsl.1.1.20190915T003556Z.59df2ad7aad1df77.c5e6a093b9d0d58d90554
 var url = "https://translate.yandex.net/api/v1.5/tr.json/translate";
 
 function add_text_to_page(block){
-	var text_array = block.html().split(" ");
-	var new_text = "";
-	for (var i = 0; i <= text_array.length - 1; i++) {
-		new_text +="<span>"+text_array[i]+"</span> ";
-	}
-	$('.cont_text').html(new_text);
-	$('.cont_text span').click(function(event){
+	// var text_array = block.html().split(" ");
+	// var new_text = "";
+	// for (var i = 0; i <= text_array.length - 1; i++) {
+	// 	new_text +="<span class='word'>"+text_array[i]+"</span> ";
+	// }
+	// $('.cont_text').html(new_text);
+	$('.cont_text span.word').click(function(event){
 		var w = $(this).text();
 		popup.show(event.clientX,event.clientY);
 		popup.show_loading();

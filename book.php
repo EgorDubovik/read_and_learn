@@ -15,7 +15,7 @@
 	<div class="cont_text">
 		<?=$book['text']?>
 	</div>
-
+	
 	<script type="text/javascript">
 		$(document).ready(function(){
 			add_text_to_page($('.cont_text'));
